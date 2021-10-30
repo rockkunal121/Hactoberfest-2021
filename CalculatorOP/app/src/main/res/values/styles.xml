@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity_bg</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="btn_white" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#ffffff</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="fontFamily">sans-serif-light</item>
+
+    </style>
+
+    <style name="btn_cyan" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/cyan</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="fontFamily">sans-serif-light</item>
+
+    </style>
+
+
+</resources>
